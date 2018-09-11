@@ -1,0 +1,43 @@
+{
+  "name": "ice-php/page",
+  "description": "分页 ",
+  "keywords": [
+    "icePHP",
+    "page"
+  ],
+  "homepage": "https://github.com/ice-php/page",
+  "type": "composer",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/ice-php/page"
+  },
+  "authors": [
+    {
+      "name": "blueice",
+      "email": "liyong@nenu.edu.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ice-php/mvc": "dev-master"
+
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "icePHP\\": "src"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
