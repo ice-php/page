@@ -115,7 +115,7 @@ class Page
         }
 
         // 记录总数
-        $this->count = $count;
+        $this->count = intval($count);
 
         // 计算总页数
         $this->allPage = ceil($count / $this->size);
