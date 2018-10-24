@@ -103,7 +103,6 @@ class Page
     /**
      * 开发人员将满足条件的数据总数传入,以记录
      * 如果不传递参数,将返回之前传递的满足条件的数据总数
-     *
      * @param int|mixed $count
      * @return int
      */
